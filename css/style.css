@@ -1,0 +1,17 @@
+.circle{
+	width: 700px;
+	left: 50%;
+	transform: translate(-50%,0);
+	position: relative;
+}
+.big-arrow{
+	width: 38px;
+	position: absolute;
+	top: 5%;
+	left: 49%;
+	animation: arrow 6s infinite;
+}
+@keyframes arrow{
+	from {top: 0px;}
+	to {top: 300px;}
+}
