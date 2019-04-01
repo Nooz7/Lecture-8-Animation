@@ -1,17 +1,27 @@
-.circle{
-	width: 700px;
-	left: 50%;
-	transform: translate(-50%,0);
+.geolab-logo{
+	width: 1278px;
 	position: relative;
 }
-.big-arrow{
-	width: 38px;
+.eye{
 	position: absolute;
-	top: 5%;
-	left: 49%;
-	animation: arrow 6s infinite;
+	left: 34.6%;
+	top:21.9%;
+	width: 180px;
+	animation-name: eye;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
-@keyframes arrow{
-	from {top: 0px;}
-	to {top: 300px;}
+.eye:hover{
+	width: 360px;
+	animation-duration: 3s;
+	left: 28%;
+	top:18%;
+}
+@keyframes eye{
+	0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
 }
